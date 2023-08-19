@@ -1,0 +1,90 @@
+footer{
+    a{
+        text-decoration: none;
+        color: #808080;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        b{
+            color: #000;
+            font-family: Inter;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 33px;
+        }
+    }
+    p{
+        color: #808080;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        width: 314px;
+        height: 41px;
+    }
+    input{
+        width: 312px;
+        height: 40px;
+        flex-shrink: 0;
+        border: 1.5px solid #C6C5C5;
+        background: #FEFEFE;
+        &[type=text]{
+            padding-left: 15px;
+            color: #828282;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+    button{
+        width: 312px;
+        height: 40px;
+        flex-shrink: 0;
+        background: #F8E7CA;
+        color: #424242;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        border: none;
+        &:hover,:active{
+            background-color: hsl(38, 79%, 62%);
+        }
+    }
+    .footer-top{
+        border-top: 1px solid #7E7D7D;
+        padding-top: 59px;
+        padding-bottom: 69px;
+        .footer-top_Newslatter{
+            padding: 11px 17px;
+            p{
+                margin-bottom: -10px;
+            }
+            input{
+                margin-bottom: 16px;
+            }
+            
+        }
+        .col-chung{
+            padding: 11px 33px;
+        }
+    }
+    .footer-bottom{
+        border-top: 1px solid #000;
+        margin-top: 69px;
+        margin: 0 -43px;
+        padding: 0 30px;
+        padding-top: 18px;
+        padding-bottom: 29px;
+        .footer-bottom-right{
+            a{
+                padding-left: 26px;
+            }
+        }
+    }
+}

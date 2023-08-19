@@ -1,0 +1,23 @@
+.scrollmenu{
+    position: fixed;
+    top: 15%;
+    left: 50px;
+    z-index: 10;
+    a{
+        margin-bottom: 80px;
+        border: none;
+        text-align: center;
+        background-color: #9e9d9d;
+        color: #fff;
+        font-size: 30px;
+    }
+    .list-group-item-action{
+        background-color: #9e9d9d;
+        &:hover{
+            color: white;
+        }
+    }
+    .active{
+        border-bottom: 1px solid #fff;
+    }
+}

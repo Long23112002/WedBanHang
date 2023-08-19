@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Wed_Ban_Hang:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Wed_Ban_Hang</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Wed_Ban_Hang-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Wed_Ban_Hang:war exploded" />
+    </root>
+  </artifact>
+</component>

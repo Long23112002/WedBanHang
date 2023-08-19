@@ -1,0 +1,81 @@
+.offcanvas{
+    .offcanvas-header{
+        color: #FFAB6F;
+        h1{
+            font-size: 30px;
+        }
+        button{
+            font-size: 18px;
+        }
+    }
+    .offcanvas-body{
+        border: 1px solid #CECECE;
+        .sanphamdachon{
+            .sanphamdachon-item{
+                display: flex;
+                line-height: 150px;
+                padding: 5px;
+                border: 1px solid #CECECE;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                img{
+                    display: inline;
+                    width: 150px;
+                    height: 150px;
+                }
+                h5{
+                    padding-left: 15px;
+                    padding-top: 40px;
+                    display: inline;
+                    align-items: center;
+                    font-size: 18px;
+                    line-height: 35px;
+                    Strong{
+                        font-size: 22px;
+                    }
+                }
+                button{
+                    padding-left: 20px;
+                    display: inline;
+                    font-size: 20px;
+                    &:hover{
+                        color: red;
+                    }
+                }
+                &:hover{
+                    border: 1px solid #FFAB6F;
+                    h5{
+                        strong{
+                            color: #FFAB6F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .offcanvas-footer{
+        padding: 20px;
+        p{
+            font-size: 20px;
+            color: #FFAB6F;
+            span{
+                color: #000;
+            }
+        }
+        a{
+            font-size: 20px;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            height: 50px;
+            color: #000;
+            background-color: #FFAB6F;
+            line-height: 50px;
+        }
+        &:hover{
+            a{
+                background-color: #fa7617;
+            }
+        }
+    }
+}

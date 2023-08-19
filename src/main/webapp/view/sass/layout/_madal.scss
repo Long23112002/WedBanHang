@@ -1,0 +1,84 @@
+.modal{
+    .modal-dialog{
+        .modal-content{
+            .modal-header{
+                background-image: url(../../img/modal/Rectangle\ 38.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 145px;
+                button{
+                    position: absolute;
+                    top: 20px;
+                    right: 20px;
+                }
+            }
+            .modal-body{
+                text-align: center;
+                color:#000;
+                padding:25px 45px;
+                h1{
+                    font-family: Inter;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 500;
+                }
+                p{
+                    font-family: Inter;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px;
+                }
+                input{
+                    display: inline-flex;
+                    padding: 1px 3px;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    height: 50px;
+                    gap: 10px;
+                    &[type=text]{
+                        padding-left: 20px;
+                    }
+                }
+                a{
+                    color: #000;
+                    display: inline-flex;
+                    justify-content: center;
+                    border-radius: 4px;
+                    width: 100%;
+                    height: 50px;
+                    line-height: 50px;
+                    &:hover{
+                        color: blue;
+                    }
+                }
+                span{
+                    float: left;
+                    line-height: 35px;
+                }
+                #login{
+                    background-color: #F8E7CA;
+                    &:hover{
+                        background-color: #f5b74c;
+                        color: #000;
+                    }
+                }
+                #crtacount{
+                    background-color: #EFEFEF;
+                    &:hover{
+                        background-color: #e4dcdc;
+                        color: #000;
+                    }
+                }
+                #createAccount{
+                    background-color: #F8E7CA;
+                    &:hover{
+                        background-color: #f5b74c;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+}

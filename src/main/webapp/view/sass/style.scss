@@ -1,0 +1,362 @@
+@import "layout/header";
+@import "base/tyography";
+@import "layout/footer";
+@import "layout/madal";
+@import "layout/offcanvas";
+@import "layout/scrollmenu";
+
+body{
+  background-color: #9e9d9d;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+  padding: 0 43px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.scaleimg{
+    &:hover{
+      scale: 1.35;
+    }
+}
+.lockscaleimg{
+  position: relative;
+  overflow: hidden;
+}
+aside {
+  .aside1 {
+    position: relative;
+    height: 658px;
+    margin: 0 -43px;
+    .img1 {
+      position: absolute;
+      img {
+        width: 170.5px;
+        height: 186px;
+        transform: rotate(51.922deg);
+        flex-shrink: 0;
+        margin-top: 47.86px;
+        margin-left: 42.33px;
+      }
+    }
+    .img2 {
+      position: absolute;
+      img {
+        width: 88.544px;
+        height: 96.593px;
+        transform: rotate(8.766deg);
+        flex-shrink: 0;
+        margin-top: 271.74px;
+        margin-left: 166.59px;
+      }
+    }
+    .img3 {
+      position: absolute;
+      img {
+        width: 777px;
+        height: 608px;
+        flex-shrink: 0;
+        margin-left: 503px;
+      }
+    }
+    .img4 {
+      position: absolute;
+      svg {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        gap: 10.975px;
+        margin-top: 482px;
+        margin-left: 67px;
+      }
+    }
+    .aside1-content {
+      h1 {
+        position: absolute;
+        margin-top: 238px;
+        margin-left: 273px;
+        color: #ffab6f;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 300;
+      }
+      p {
+        position: absolute;
+        margin-top: 305px;
+        margin-left: 309px;
+        width: 177px;
+        height: 84px;
+        color: #000;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      button {
+        background-color: #fff;
+        position: absolute;
+        margin-top: 416px;
+        margin-left: 310px;
+        width: 79px;
+        height: 40px;
+        padding: 2px 3px;
+        justify-content: center;
+        border: 1px solid #727272;
+        align-items: center;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+  }
+  .aboutus {
+    height: 720px;
+    h1 {
+      color: #ffab6f;
+      font-family: Inter;
+      padding: 0 15px;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      border-bottom: 1px solid #5e5e5e;
+      height: 71px;
+      line-height: 71px;
+    }
+    .aboutus-content {
+      .aboutus-content-left {
+        padding-left: 15px;
+        p {
+          margin-top: 56.97px;
+          margin-bottom: 69px;
+          color: #000;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+      .aboutus-content-right {
+        img {
+          margin-top: 46px;
+          margin-bottom: 45px;
+        }
+        p {
+          color: #000;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .aside-product {
+    text-align: center;
+    width: 944px;
+    height: 922px;
+    margin: 0 auto;
+    h1 {
+      margin-top: 23px;
+      margin-bottom: 3.5px;
+      color: #ffab6f;
+      font-family: Inter;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    h2 {
+      color: #000;
+      font-family: Malgun Gothic;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      margin-bottom: 19.5px;
+    }
+    .navbtnloc {
+      height: 22px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+      .btn:not(:disabled):not(.disabled).active {
+        background-color: #727272;
+        color: #fff;
+        border: 0.5px solid #727272;
+      }
+    }
+    .tab-content {
+      margin-top: 37px;
+      .row {
+        padding-bottom: 26px;
+      }
+      .card-sp {
+        border-radius: 8px;
+        border: 1px solid #c3c3c3;
+        .imgcard {
+          img {
+            padding: 6px;
+          }
+        }
+        .card-body {
+          h5 {
+            display: flex;
+            float: inline-start;
+            padding: 11px 8px;
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+          }
+          p {
+            display: flex;
+            float: inline-start;
+            margin-top: -8px;
+            padding-left: 8px;
+            color: #000;
+            font-family: Inter;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+          }
+          a {
+            width: 172px;
+            height: 30px;
+            flex-shrink: 0;
+            color: #000;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin: 11px 0;
+          }
+        }
+      }
+    }
+  }
+  .aside-ourblog {
+    height: 720px;
+    h1 {
+      color: #ffab6f;
+      font-family: Inter;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      padding-top: 25px;
+      padding-bottom: 22px;
+      padding-left: 15px;
+      border-bottom: 1px solid #727272;
+      margin-bottom: 0px;
+    }
+    .content-ourblog{
+        text-align: center;
+        padding-top: 60.97px;
+        margin: 0 -43px;
+        .your-class{
+          padding: 22px 10px;
+          margin: 0 75px;
+          .editdots{
+            width: 6px;
+            height: 6px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 46px);
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:8px;
+            margin-bottom: 33px;
+            button{
+                font-size: 0;
+                width: 11px;
+                height: 11px;
+                border-radius: 100rem;
+                border: none;
+                outline: none;
+                transition: all .5s linear;
+                color: #D8D8D8;
+            }
+            button:hover{
+                background-color: #D8D8D8;
+            }
+        }
+        .slick-active{
+            button{
+                background-color: #D8D8D8;
+            }
+        }
+        
+        .card{
+            border: none;
+            padding: 0 30px;
+            width: 310px;
+            img{
+                height: 332px;
+                width: 310px;
+                border-radius: 60px;
+            }
+            .card-body{
+              padding: 37px 0px;
+              padding-bottom: 0;
+                h3{
+                    color: #000;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+                span{
+                  color: #757575;
+                  font-family: Inter;
+                  font-size: 12px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 18px;
+              }
+                p{
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 11px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+            }
+        }
+        }
+        
+
+    }
+    
+  }
+}
+.backtotop{
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffab6f; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #f08437; /* Add a dark-grey background on hover */
+  }
+}
