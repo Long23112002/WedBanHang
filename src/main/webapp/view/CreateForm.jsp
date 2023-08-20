@@ -102,15 +102,15 @@
 
                     <input name="passConfim" type="password" class="form-control"
                            placeholder="Enter the password" aria-label="Enter the password">
-                    <p id="passConfirm" style="text-align: left ; font-size: 15px ; color: red"></p>
+                    <p id="ERpassConfirm" style="text-align: left ; font-size: 15px ; color: red"></p>
                     <input name="phone" type="text" class="form-control" placeholder="Phone"
                            aria-label="Phone">
                     <p id="errorPhone" style="text-align: left ; font-size: 15px ; color: red"></p>
                     <input name="diaChi" type="text" class="form-control" placeholder="Địa chỉ"
                            aria-label="diaChi">
                     <p id="errorDiaChi" style="text-align: left ; font-size: 15px ; color: red"></p>
-                    <span> <input type="checkbox"> You agree to the terms and conditions of INP</span>
-                    <button type="submit" id="createAccount">Create Account</button>
+                    <span> <input type="checkbox" id="termsCheckbox"> You agree to the terms and conditions of INP</span>
+                    <button type="submit" id="createAccountForm">Create Account</button>
                     <br>
                 </form>
             </div>

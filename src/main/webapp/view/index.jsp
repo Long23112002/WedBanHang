@@ -612,15 +612,7 @@
     </div>
 </footer>
 
-<div class="scrollmenu">
-    <div id="list-example" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#Home">Home</a>
-        <a class="list-group-item list-group-item-action" href="#AboutUs">About Us</a>
-        <a class="list-group-item list-group-item-action" href="#Product">Product</a>
-        <a class="list-group-item list-group-item-action" href="#Blog">Blog</a>
-        <a class="list-group-item list-group-item-action" href="#Contant">Contant</a>
-    </div>
-</div>
+
 
 <div class="backtotop">
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
@@ -652,7 +644,7 @@
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src = "${pageContext.request.contextPath}/view/dist/js/validateForm.js"></script>
-<%--<script src = "${pageContext.request.contextPath}/view/dist/js/validateSignin.js"></script>--%>
+<script src = "${pageContext.request.contextPath}/view/dist/js/validateSignin.js"></script>
 <script>
     $(document).ready(function () {
         $('.your-class').slick({

@@ -1,12 +1,12 @@
 $(document).ready(function() {
     $("#createAccount").click(function(e) {
         e.preventDefault();
-        $("#errorName, #errorEmailDK, #errorPass, #errorPassConfirm, #errorPhone, #errorDiaChi").text("");
+        $("#errorName, #errorEmailDK, #errorPass, #passConfirm, #errorPhone, #errorDiaChi").text("");
 
         var name = $("input[name='name']").val();
         var email = $("input[name='email']").val();
         var pass = $("input[name='pass']").val();
-        var passConfirm = $("input[name='passConfirm']").val();
+        var passConfirm = $("input[name='passConfim']").val();
         var phone = $("input[name='phone']").val();
         var diaChi = $("input[name='diaChi']").val();
         var termsChecked = $("#termsCheckbox").prop("checked");
@@ -37,8 +37,8 @@ $(document).ready(function() {
             $("#passConfirm").text("Mật khẩu xác nhận không được để trống");
             isValid = false;
         }
-        if (pass !== passConfirm) {
-            $("#errorPassConfirm").text("Mật khẩu không khớp");
+        if (pass != passConfirm) {
+            $("#ERpassConfirm").text("Mật khẩu không khớp");
             isValid = false;
         }
 
@@ -53,10 +53,10 @@ $(document).ready(function() {
             isValid = false;
         }
 
-        // if (!termsChecked) {
-        //     alert("Bạn phải đồng ý với điều khoản của long");
-        //     isValid = false;
-        // }
+        if (!termsChecked) {
+            alert("Bạn phải đồng ý với điều khoản của long");
+            isValid = false;
+        }
 
         if (isValid) {
             $("#createAccountForm").submit();
